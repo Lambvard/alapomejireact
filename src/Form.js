@@ -37,7 +37,7 @@ const Carousel = () => {
             </div>
             {list_of_app.map((item) => 
             
-            <div  style={{backgroundColor:"ButtonFace",fontFamily:"revert",boxShadow:'0 2px 5px #ccc',width:400,margin:"auto" }}>
+            <div  style={{backgroundColor:"turquoise",fontFamily:"revert",boxShadow:'0 5px 5px #ccc',width:600,margin:"auto" }}>
                 <h1>{item}</h1>
                 <button className="btn" style={{backgroundColor:"ButtonShadow",borderRadius:5, fontSize:19}}>{item}</button>
             </div>
